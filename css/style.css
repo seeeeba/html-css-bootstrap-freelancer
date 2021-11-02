@@ -1,3 +1,13 @@
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content{
+    color: white;
+    margin-top: 10px;
+}
+
 /* HEADER */
 
 .background{
@@ -10,7 +20,6 @@
 header .background .container .row .col-6 .content h4,
 header .background .container .row .col-6 .content ul li {
     text-transform: uppercase;
-    color: white;  
 }
 
 header .background .container .row .col-6 .content ul {
@@ -25,13 +34,15 @@ header .background .container .row .col-6 .content ul li {
     padding: 0 10px;
 }
 
-/* UNDER HEADER */
+/* END HEADER */
 
-main .lower-header{
+/* START UNDER HEADER */
+
+main .green-space{
     background-color: #1abc9c;
 }
 
-main .lower-header .header-container{
+main .green-space .green-container{
     width: 60%;
     margin: auto;
     display: flex;
@@ -40,8 +51,38 @@ main .lower-header .header-container{
     padding: 40px 0;
 }
 
-main .lower-header .header-container .container-img{
+main .green-space .green-container .container-img{
     width: 180px;
 }
 
+/* END UNDER HEADER */
 
+/* START PORTFOLIO */
+.undertitle{
+    text-align: center;
+}
+
+.img-box{
+    margin-top: 20px;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+/* END PORFOLIO */
+
+/* START ABOUT */
+
+
+
+
+
+main .green-container .title h2{
+    text-align: center;
+}
+
+.symbols{
+    text-align: center;
+    /* classe da mettere in comune */
+}
+
+
+/* END ABOUT */
