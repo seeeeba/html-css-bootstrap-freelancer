@@ -1,3 +1,5 @@
+/* HEADER */
+
 .background{
     height: 80px;
     display: flex;
@@ -22,3 +24,24 @@ header .background .container .row .col-6 .content ul li {
     font-size: 20px;
     padding: 0 10px;
 }
+
+/* UNDER HEADER */
+
+main .lower-header{
+    background-color: #1abc9c;
+}
+
+main .lower-header .header-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+main .lower-header .header-container .container-img{
+    width: 180px;
+}
+
+
