@@ -1,11 +1,15 @@
 img{
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
 }
 
 .content{
     color: white;
     margin-top: 10px;
+}
+
+main .container{
+    margin-top: 40px;
 }
 
 /* HEADER */
@@ -34,6 +38,30 @@ header .background .container .row .col-6 .content ul li {
     padding: 0 10px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+.content>i{
+    display: none;
+    text-align: right; 
+}
+
+/* @media screen and (max-width: 576px) {
+    
+    header .background .container .row .col-6 .content ul{
+        display: none;
+    }
+    .content>i{
+        display: block;
+    }
+} */
+
 /* END HEADER */
 
 /* START UNDER HEADER */
@@ -55,11 +83,25 @@ main .green-space .green-container .container-img{
     width: 180px;
 }
 
+
 /* END UNDER HEADER */
 
 /* START PORTFOLIO */
-.undertitle{
+.black{
     text-align: center;
+    text-transform: uppercase;
+}
+
+.black .star-container .stella i, .contact-me .green-container .star-container .stella i{
+    color: black;
+}
+
+.black .star-container .bar, .contact-me .green-container .star-container .bar{
+    background-color: black;
+}
+
+.spacing{
+    margin-bottom: 40px;
 }
 
 .img-box{
@@ -71,18 +113,36 @@ main .green-space .green-container .container-img{
 
 /* START ABOUT */
 
-
-
-
-
 main .green-container .title h2{
     text-align: center;
 }
 
-.symbols{
-    text-align: center;
-    /* classe da mettere in comune */
+.star-container{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.stella{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.bar{
+    width: 20%;
+    height: 5px;
+    background-color: white;
+    border-radius: 70px;
+}
 
 /* END ABOUT */
+
+/* START CONTACT-ME */
+.black{
+    color: black;
+}
+/* END CONTACT-ME */
