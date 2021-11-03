@@ -148,6 +148,12 @@ main .green-container .title h2{
     border-radius: 70px;
 }
 
+.dwn-btn{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
 /* END ABOUT */
 
 /* START CONTACT-ME */
@@ -175,7 +181,7 @@ input[type="text"],
 }
 
 
-.btn{
+.send-btn{
     border:0;
     background-color: #1abc9c;
 }
