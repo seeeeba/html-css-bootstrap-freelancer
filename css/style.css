@@ -142,7 +142,33 @@ main .green-container .title h2{
 /* END ABOUT */
 
 /* START CONTACT-ME */
+
+.contact-me{
+    margin-bottom: 40px;
+}
+
 .black{
     color: black;
 }
+
+.label-container{
+    padding: 0 15%;
+}
+
+input[type="text"],
+.label-container textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-radius: 0;
+}
+
+
+.btn{
+    border:0;
+    background-color: #1abc9c;
+}
 /* END CONTACT-ME */
+
